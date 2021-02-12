@@ -108,22 +108,19 @@ header {
 	font-weight: 400;
 }
 .box {
-	float: left;
-	margin-left: 139px;
 	width: 444px;
 	height: 388px;
 	margin-top: 128px;
 	margin-bottom: 125px;
 }
 .img1 {
-	width: 536px;
-	height: 461px;
-	float: right;
+	width: 450px;
+	height: 387px;
 	margin-top: 90px;
-	margin-right: 139px;
-	margin-bottom: 90px;
 }
 .section1{
+	display: flex;
+	justify-content: space-around;
 	height: 642px;
 }
 .section2 {
@@ -148,13 +145,13 @@ header {
 }
 .parent {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 .box1 {
 	width: 260px;
 	height: 260px;
 	background-color: #FFFFFF;
-	margin-right: 16px;
 	margin-bottom: 90px;
 }
 .ellipse {
@@ -179,4 +176,12 @@ header {
 	font-size: 14px;
 	width: 221px;
 	margin-left: 20px;
+}
+.burger-icon {
+	font-size: 24px;
+	padding-left: 30px;
+	display: none;
+	padding-top: 30px;
+	color: #FFFFFF;
+	padding-bottom: 30px;
 }

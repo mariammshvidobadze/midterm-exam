@@ -1,0 +1,22 @@
+@media (max-width: 950px) {
+	.about-us {
+		display: none;
+	}
+	.header-text {
+		display: none;
+	}
+}
+@media (max-width: 768px) {
+	.header-text {
+		display: none;
+	}
+	.img1 {
+		display: none;
+	}
+	.navigation {
+		display: none;
+	}
+	.burger-icon {
+		display: block;
+	}
+}
