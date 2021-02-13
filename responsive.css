@@ -20,3 +20,19 @@
 		display: block;
 	}
 }
+@media (max-width: 540px) {
+	.title1 {
+		font-family: 'Poppins', sans-serif;
+		font-weight: 800;
+		font-size: 42px;
+		color: #FFFFFF;
+		margin-left: 100px;
+		margin-bottom: 34px;
+		width: 200px;
+	}
+}
+@media (max-width: 320px) {
+	.title1 {
+		display: none;
+	}
+}
